@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* changing the cursor decoration */
+
+.pointer         { cursor: pointer; }
+
+/* styling of the navbar */
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    opacity: 0.7;
+    
+}
+
+nav a {
+    background-color: transparent;
+    padding: 10px;
+    color: red;  
+    font-weight: bolder;  
+    font-size: small; 
+}
+
+
+/* Back to top script style */
+
+.crunchify-top:hover {
+	color: #ffffff !important;
+	background-color: red;
+	text-decoration: none;
+}
+ 
+.crunchify-top {
+	display: none;
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	width: 3.2rem;
+	height: 3.2rem;
+	line-height: 3.2rem;
+	font-size: 1.4rem;
+	color: #ffffff;
+	background-color: rgba(0,0,0,0.3);
+	text-decoration: none;
+	border-radius: 3.2rem;
+	text-align: center;
+	cursor: pointer;
+
+}
+
+/* styling the structure */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #666666;
+}
+
+/* Image properties */
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimg12, .pimg13, .pimg14, .pimg15, .pimg16, .pimg17, .pimg18, .pimg19, .pimg20 {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* fixed = parallax
+scroll = normal */
+
+
+/* styling the links */
+a {
+    text-decoration: none;
+    color: red;
+    background-color: black;
+    border-radius: 15%;
+}
+
+a:hover {
+    color: yellow;
+    font-weight: bold;
+}
+
+
+
+/* Linking the images */
+.pimg1 {
+
+    background-image: url("img/pexels-antonio-batinic.jpg");
+    min-height: 100%;
+}
+
+.pimg2 {
+
+    background-image: url("img/pexels-markus.jpg");
+    min-height: 400px;
+}
+
+.pimg3 {
+
+    background-image: url("img/pexels-pixabay.jpg");
+    min-height: 400px;
+}
+
+.pimg4 {
+
+    background-image: url("img/pexels-alif.jpg");
+    min-height: 400px;
+}
+
+.pimg5 {
+
+    background-image: url("img/pexels-bulb.jpg");
+    min-height: 400px;
+}
+
+.pimg6 {
+
+    background-image: url("img/pexels-digital.jpg");
+    min-height: 400px;
+} 
+
+.pimg7 {
+
+    background-image: url("img/pexels-manuel.jpg");
+    min-height: 400px;
+} 
+
+.pimg8 {
+
+    background-image: url("img/pexels-picjum.jpg");
+    min-height: 400px;
+} 
+
+.pimg9 {
+
+    background-image: url("img/pexels-jorge.jpg");
+    min-height: 400px;
+} 
+
+.pimg10 {
+
+    background-image: url("img/pexels-startup.jpg");
+    min-height: 400px;
+}
+
+.pimg11 {
+
+    background-image: url("img/pexels-fabian.jpg");
+    min-height: 400px;
+}
+
+.pimg12 {
+
+    background-image: url("img/pexels-kaboompics.jpg");
+    min-height: 400px;
+}
+
+.pimg13 {
+
+    background-image: url("img/pexels-design.jpg");
+    min-height: 400px;
+}
+
+.pimg14 {
+
+    background-image: url("img/pexels-brett.jpg");
+    min-height: 400px;
+}
+
+.pimg15 {
+
+    background-image: url("img/pexels-code.jpg");
+    min-height: 400px;
+}
+
+.pimg16 {
+
+    background-image: url("img/pexels-apps.jpg");
+    min-height: 400px;
+}
+
+.pimg17 {
+
+    background-image: url("img/pexels-red.jpg");
+    min-height: 400px;
+}
+
+.pimg18 {
+
+    background-image: url("img/pexels-apis.jpg");
+    min-height: 400px;
+}
+
+.pimg19 {
+
+    background-image: url("img/pexels-notebook.jpg");
+    min-height: 400px;
+}
+
+.pimg20 {
+
+    background-image: url("img/pexels-project.jpg");
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px 50px 80px;
+
+}
+
+
+/* style of about page */
+
+/* flexbox here for the 2 images in about me page */
+.containerimage {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    color: black;
+
+}
+
+.about h2 {
+    text-decoration: underline; 
+    text-align: center;
+
+}
+
+.about img {
+    border-radius: 25%;
+    margin-right: 30px;
+
+}
+
+/* style of references page */
+
+.references {
+    color: white;
+}
+
+/* decoration of the list items */
+ul {
+    list-style-type: none;
+}
+
+
+/* dark and light sections */
+.section-light {
+    background-color: lightgrey;
+    color: #222222;
+    text-align: justify;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #dddddd;
+    text-align: justify;
+}
+
+/* styling the text */
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.border {
+    background-color: #111111;
+    padding: 20px;
+    border-radius: 25% 25%;
+}
+
+
+
+/* Customised scrollbar */
+
+::-webkit-scrollbar-track
+{
+	border: 5px solid black;
+	border-color: transparent;
+	background-color: #b2bec3;
+}
+
+::-webkit-scrollbar
+{
+	width: 15px;
+	background-color: #dfe6e9;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: red;
+	border-radius: 10px;
+}
+
